@@ -1,5 +1,4 @@
 // typing effect
-
 function runTypingEffect() {
     const text = 'I am Benjahmin Koenigsberg.';
     const typingElement = document.getElementById('typing-text');
@@ -17,6 +16,7 @@ function typeText(text, element, delay) {
             element.textContent += text.charAt(i);
         }, delay * i)
     }
+
 }
 
 document.addEventListener('DOMContentLoaded', runTypingEffect);

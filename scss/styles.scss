@@ -2,6 +2,8 @@
 
 .header {
   background: #151515 url(../images/intro-bg.jpg) no-repeat center center;
+  background: #151515 url(../images/nyc-skyline.jpeg) no-repeat center center;
+
   background-size: cover;
   background-attachment: fixed;
 }
@@ -13,7 +15,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .header .roles {
@@ -56,7 +58,7 @@
 }
 
 .services {
-  background: url(/images/bg.jpg) no-repeat center center;
+  background: url(/images/herobg.png) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -68,7 +70,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .services .container {
@@ -95,7 +97,7 @@
     padding-bottom: 20px;
   }
 
-  .profile{
+  .profile {
     text-align: center;
   }
 }
