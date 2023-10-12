@@ -1,4 +1,12 @@
 /** @format */
+a,
+a:before,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
 .header {
   background: #151515 url(../images/intro-bg.jpg) no-repeat center center;
   background: #151515 url(../images/nyc-skyline.jpeg) no-repeat center center;
@@ -41,10 +49,35 @@
   height: 60px;
 }
 
-.project:hover {
+.portfolio-icon-container {
+  margin-top: 0.35rem;
+}
+
+.image-details-button-container:hover {
   transform: scale(1.05);
   transition: all 0.5s ease-in-out;
   opacity: 0.8;
+}
+
+.portfolio-icon-container button {
+  color: #990047;
+  border-color: black;
+  text-transform: uppercase;
+}
+
+.portfolio-icon-container button:hover {
+  background-color: black;
+  color: #f4f4f4;
+}
+
+.portfolio-icon-container a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.portfolio span {
+  font-size: 12px;
+  padding-left: 2px;
 }
 
 .caption {
