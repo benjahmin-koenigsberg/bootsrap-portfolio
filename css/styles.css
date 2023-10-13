@@ -44,13 +44,16 @@ a:visited {
   width: 200px;
 }
 
-.skills-icon-container {
-  display: flex;
-  flex-direction: column;
-}
-
 .tech-logo {
   height: 60px;
+}
+
+.skills-container {
+  border: 1px solid black;
+}
+
+.front-end-container {
+  border: 1px solid black;
 }
 
 .portfolio-icon-container {

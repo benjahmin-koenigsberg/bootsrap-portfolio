@@ -46,20 +46,26 @@ a:visited {
   width: 200px;
 }
 
-.skills-icon-container {
-  display: flex;
-  flex-direction: column;
-}
+// .skills-icon-container {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+
+
 
 .tech-logo {
   height: 60px;
 }
 
-// .project:hover {
-//   transform: scale(1.05);
-//   transition: all 0.5s ease-in-out;
-//   opacity: 0.8;
-// }
+
+.skills-container{
+  border: 1px solid black;
+}
+
+.front-end-container{
+  border: 1px solid black;
+}
 
 .portfolio-icon-container {
   // margin-bottom: 2rem;
