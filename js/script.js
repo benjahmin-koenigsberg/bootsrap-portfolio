@@ -29,3 +29,14 @@ function repeatType(){
 
 //auto run function on page load
 document.addEventListener('DOMContentLoaded', runTypingEffect);
+
+//check if user scrolled back to the top
+document.addEventListener('scroll', rerunOnScroll);
+
+//run on scroll to top of page
+function rerunOnScroll(){
+    if (window.scrollY == 0) {
+        //user scrolled to the top of the page
+        repeatType();
+    }
+}
